@@ -19,7 +19,7 @@
         if ($rows && $rowsS == 1) {
             $_SESSION['username'] = $username;
             // Redirect to user dashboard page
-            header("Location: ../templates/index.html");
+            header("Location: ../dashboard.php");
         } else {
             echo "<div class='form'>
                   <h3>Incorrect Username/password.</h3><br/>

@@ -90,7 +90,7 @@ include("../login/auth_session.php");
 {#              <li><a href="#">Drop Down 4</a></li>#}
 {#            </ul>#}
 {#          </li>#}
-          <li><a style="background-color: red;" href="../login/logout.php" class="appointment-btn scrollto">Logout</a></li>
+          <li><a href="../logout.php">Logout</a></li>
         </ul>
       </nav><!-- .nav-menu -->
 
